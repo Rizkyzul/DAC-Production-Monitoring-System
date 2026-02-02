@@ -88,10 +88,5 @@ npm run dev
 
 ---
 
-**DAC Production Monitoring System** — *Efficiency with Aesthetic Precision.*
+**DAC Production Monitoring System** — **Siap Dijalankan pada perangkat**
 
-```
-
-
-Selesai! File  sudah siap pakai.
-```
