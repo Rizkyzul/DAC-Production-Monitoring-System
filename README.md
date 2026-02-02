@@ -55,14 +55,43 @@ Sistem menggunakan logika urutan ketat (Linear Progress). Setiap unit membawa da
 3.  **Akuntabilitas (QC):** Scan SN. Jika ada cacat, sistem menarik data relasional: *"Unit SN:XXX dikerjakan oleh Kelompok [Nama] (Leader: [Nama])"*.
 4.  **Finalisasi (Packing & Logistik):** Memastikan kelengkapan fisik sebelum status berubah menjadi "Siap Kirim".
 
----
-
 ## 🚀 Instalasi & Setup
 
-### Backend (Laravel)
-1. Clone repositori.
-2. Jalankan `composer install`.
-3. Copy `.env.example` ke `.env` dan sesuaikan database.
-4. Jalankan migrasi dan seeder:
-   ```bash
-   php artisan migrate --seed
+### 1. Clone Repositori
+```bash
+git clone [https://github.com/username/dac-production-monitoring.git](https://github.com/username/dac-production-monitoring.git)
+cd dac-production-monitoring
+
+```
+
+### 2. Backend (Laravel)
+
+```bash
+cd backend
+composer install
+cp .env.example .env
+# Sesuaikan konfigurasi DB di .env Anda
+php artisan key:generate
+php artisan migrate --seed
+php artisan serve
+
+```
+
+### 3. Frontend (React)
+
+```bash
+cd frontend
+npm install
+npm run dev
+
+```
+
+---
+
+**DAC Production Monitoring System** — *Efficiency with Aesthetic Precision.*
+
+```
+
+
+Selesai! File  sudah siap pakai.
+```
