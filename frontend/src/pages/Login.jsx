@@ -106,7 +106,10 @@ export default function Login() {
                 </motion.form>
 
                 <p className="text-center text-xs text-gray-500 dark:text-gray-400 mt-6">
+                    Muhammad Rizky Zulkarnaen | 4136597 | Teknik Informatika 
+                    <br />
                     TUGAS DAC © 2026
+
                 </p>
             </motion.div>
         </div>
