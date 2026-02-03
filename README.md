@@ -1,6 +1,6 @@
 # DAC Production Monitoring System 
 
-![Laravel](https://img.shields.io/badge/Backend-Laravel_11-red?style=for-the-badge&logo=laravel)
+![Laravel](https://img.shields.io/badge/Backend-Laravel_12-red?style=for-the-badge&logo=laravel)
 ![React](https://img.shields.io/badge/Frontend-React.js-61DAFB?style=for-the-badge&logo=react)
 ![Tailwind](https://img.shields.io/badge/Styling-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css)
 ![PostgreSQL](https://img.shields.io/badge/Database-MySQL%2FPostgre-blue?style=for-the-badge&logo=postgresql)
