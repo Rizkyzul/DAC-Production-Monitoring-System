@@ -32,7 +32,7 @@ Sistem ini menggunakan pendekatan UI/UX futuristik:
 
 ---
 
-## 👥 Manajemen User & Role
+## 👥 Manajemen User , Role & Akses Login
 Terdapat 6 level akses dengan dashboard dan otoritas yang berbeda:
 
 1.  **Admin:** Manajemen user, data kelompok, dan laporan performa global.
@@ -42,6 +42,15 @@ Terdapat 6 level akses dengan dashboard dan otoritas yang berbeda:
 5.  **Packing:** Pemasangan aksesori (adaptor, manual book, garansi) dan pengemasan.
 6.  **Logistik:** Final approval. Tombol "Ship" hanya aktif jika semua tahap sebelumnya (1-4) valid.
 
+Semua akun di bawah ini menggunakan password default: **password**
+| Role | Nama User | Email | Dashboard Utama |
+| :--- | :--- | :--- | :--- |
+| **Admin** | Admin User | `admin@dac.com` | Full Control & User Management |
+| **Pra-Assembly** | Pra Assembly Staff | `pra@dac.com` | Registrasi & Cek Fisik Unit |
+| **Assembly** | Assembly Worker | `assembly@dac.com` | Input Serial Number & Perakitan |
+| **QC** | QC Officer | `qc@dac.com` | Audit & Traceability Logic |
+| **Packing** | Packing Staff | `packing@dac.com` | Kelengkapan Aksesori |
+| **Logistics** | Logistics Manager | `logistics@dac.com` | Final Approval & Shipping |
 ---
 
 ## ⚙️ Alur Kerja Linear (Traceability Logic)
