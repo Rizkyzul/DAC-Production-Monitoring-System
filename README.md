@@ -20,7 +20,7 @@ Sistem ini menggunakan pendekatan UI/UX futuristik:
 ## 🏗️ Arsitektur Teknologi
 
 ### Backend (API-based)
-* **Framework:** Laravel 11
+* **Framework:** Laravel 12
 * **Database:** MySQL  (Relational)
 * **Auth:** Laravel Sanctum (Token-based authentication)
 
