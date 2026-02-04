@@ -2,10 +2,12 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Production extends Model
 {
+    use HasFactory;
     protected $fillable = [
         'serial_number', 'group_id', 'status_pra_assembly', 'status_assembly',
         'status_qc', 'status_packing', 'status_logistics', 'is_rejected',
